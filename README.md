@@ -1,2 +1,2 @@
 # my-website
- This is my personal website in development
+ This is my personal website
