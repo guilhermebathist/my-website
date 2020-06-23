@@ -11,7 +11,7 @@ body {
 	padding: 0;
 }
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 /* ---------------- Body ---------------- */
 
@@ -119,7 +119,7 @@ p {
 }
 
 .menu {
-	background: #cecece;
+	background: #f9f9f9;
 	position: fixed;
 	opacity: 0;
 	left: -100%;
@@ -186,7 +186,7 @@ header:before {
 	bottom: 0;
 	width: 100%;
 	height: 20vh;
-	background: linear-gradient(transparent, #efefef);
+	background: linear-gradient(transparent, #f9f9f9);
 }
 header h1 {
 	padding-top: 25%;
@@ -225,7 +225,7 @@ header p {
 	padding: 0;
 	width: 100%;
 	height: 100vh;
-	background: #efefef;
+	background: #f9f9f9;
 }
 .about h2 {
 	padding-top: 5%;
@@ -265,7 +265,7 @@ header p {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	background: #efefef;
+	background: #f9f9f9;
 }
 .portfolio h2 {
 	padding-top: 5%;
@@ -296,13 +296,13 @@ header p {
 	border: none;
 	border-radius: .3rem;
 	text-align: left;
-	transition: 1s;
+	transition: all .2s ease-in-out;
 }
 .portfolio .card:hover {
 	transform: translateY(-10px);
 }
 .portfolio .card:hover .card-img-top{
-	transition: 1s;
+	transition: all .2s ease-in-out;
 	filter: brightness(60%);
 }
 .portfolio-link-title {
@@ -359,7 +359,7 @@ header p {
 }
 
 .portfolio-section {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Monstserrat', sans-serif;
 	font-weight: 300;
 	text-align: center;
 	color: #636363;
@@ -416,7 +416,7 @@ footer {
 	height: 20vh;
 	background: #262626;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 footer small {
 	color: #ccc;
