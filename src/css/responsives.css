@@ -1,0 +1,109 @@
+/* ---------------------------- Responsives ----------------------------*/
+
+/*------------- (Max-Width 1200) -------------*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*------------- (Max-Width 1200) -------------*/
+
+/*------------- (Max-Width 991) -------------*/
+@media only screen and (max-width: 991px) {
+
+}
+
+/*------------- (Max-Width 991) -------------*/
+
+/*------------- (Max-Width 767) -------------*/
+@media only screen and (max-width: 767px) {
+	/*------ Header ------*/
+	header h1 {
+		padding-top: 50%;
+	}
+	/*------ Header ------*/
+}
+
+/*------------- (Max-Width 767) -------------*/
+
+/*------------- (Max-Width 575) -------------*/
+@media only screen and (max-width: 575px) {
+	/*------ Preloader ------*/
+	.preloader-img {
+		width: 15%;
+	}
+	/*------ Preloader ------*/
+
+
+	/*------ Portfolio ------*/
+	.development img {
+		width: 10%;
+	}
+	/*------ Portfolio ------*/
+
+}
+
+/*------------- (Max-Width 575) -------------*/
+
+
+/*------------- (Max-Width 525) -------------*/
+@media only screen and (max-width: 525px) {
+	/*------ Header ------*/
+	header h1 {
+		font-size: 30px;
+	}
+	header p {
+		font-size: 15px;
+	}
+	/*------ Header ------*/
+}
+
+/*------------- (Max-Width 525) -------------*/
+
+/*------------- (Max-Width 441) -------------*/
+@media only screen and (max-width: 441px) {
+	/*------ Header ------*/
+	header h1 {
+		padding-top: 80%;
+	}
+	/*------ Header ------*/
+}
+
+/*------------- (Max-Width 441) -------------*/
+
+/*------------- (Max-Width 375) -------------*/
+@media only screen and (max-width: 375px) {
+	/*------ Header ------*/
+	header h1 {
+		font-size: 25px;
+	}
+	header p {
+		font-size: 12px;
+	}
+	/*------ Header ------*/
+}
+
+/*------------- (Max-Width 375) -------------*/
+
+/*------------- (Max-Width 370) -------------*/
+@media only screen and (max-width: 370px) {
+
+}
+
+/*------------- (Max-Width 370) -------------*/
+
+/*------------- (Max-Width 350) -------------*/
+@media only screen and (max-width: 350px) {
+
+}
+
+/*------------- (Max-Width 350) -------------*/
+
+/*------------- (Max-Width 335) -------------*/
+@media only screen and (max-width: 335px) {
+
+}
+
+/*------------- (Max-Width 335) -------------*/
+
+
+/* ---------------------------- Responsives ----------------------------*/
