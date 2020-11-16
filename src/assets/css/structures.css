@@ -5,17 +5,61 @@
 	background-color: #E74C3Cbf;
 	color: #fff;
 }
+:root {
+	--text: #212529;
+
+	--bg-light: #fdfdfd;
+	--nav-bg-light: #f9f9f9;
+	--nav-shadow: #ececec;
+
+	--light2: #f9f9f9;
+	--nav-config1: #eaeaea;
+	--nav-config2: #ccc;
+	--config-text1: #212529;
+	--config-text2: #fff;
+
+	
+
+	--dark-nav-config1: #f5f5f524;
+	--dark-nav-config2: #f5f5f55e;
+	--light-nav-config1: #f5f5f5;
+	--light-nav-config2: #cecece;
+
+	--light-dropdown-selected: #bebebe26;
+
+	--arrow1: #f0f0f0;
+	--arrow2: #e8e8e8;
+}
+.dark-mode:root {
+	--text: #fdfdfd;
+	--white: #101010;
+
+	--bg-light: #212529;
+	--nav-bg-light: #151515;
+	--nav-shadow: #ececec10;
+
+	
+	--nav-config1: #444;
+	--nav-config2: #555;
+	
+	--config-text2: #000;
+
+	--arrow1: #2e2e2e;
+	--arrow2: #434343;
+}
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 body {
-	background: #fdfdfd;
+	background: var(--bg-light);
+	color: var(--text);
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow-x: hidden;
 	font-family: 'Montserrat', sans-serif;
+	transition: 1s;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
