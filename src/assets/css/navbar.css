@@ -68,9 +68,13 @@ nav .btn-config:active {
     color: var(--config-text2);
     box-shadow: 0 0 10px -5px #555;
 }
+nav .btn-config i {
+    cursor: url("../cursors/Hand.cur"), pointer;
+}
 nav .btn-config img {
     width: 60%;
     margin-bottom: 7%;
+    cursor: url("../cursors/Hand.cur"), pointer;
 }
 
 nav .nav-links > ul {
@@ -78,6 +82,7 @@ nav .nav-links > ul {
     justify-content: center;
     align-items: center;
     margin: 0;
+    text-align: center;
 }
 nav .nav-link {
     position: relative;
@@ -97,6 +102,9 @@ nav .nav-link > a {
 nav .nav-link > a:hover {
     text-decoration: none;
     color: #E74C3C;
+}
+nav .nav-link > a:active {
+    letter-spacing: 3px;
 }
 
 nav .nav-link > a > i{

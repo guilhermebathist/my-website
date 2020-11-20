@@ -4,7 +4,7 @@
 	<title>Guilherme Bathist - Portfolio Web Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="assets/img/logos/logo-1.png" />
+    <link rel="shortcut icon" href="assets/img/logo/favicon.png" />
 	<meta content="My personal and professional website." name="description" />
     <meta content="Guilherme Bathist" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -76,11 +76,14 @@
                     </ul>
                 </div>
 
-                <div class="nav-config text-center">
+                <div class="nav-config text-center">                    
 
-                    <a href="#" class="btn-config" onclick="darkMode()"><i class="mdi mdi-lightbulb-on-outline" id="btn-dark-mode" title="Dark Mode"></i></a>
+                    <a class="btn-config" onclick="darkMode(false)" title="Modo Escuro"><i class="mdi mdi-lightbulb-on-outline" id="btn-dark-mode" ></i></a>
 
-                    <a href="#" class="btn-config" title="Language"><img src="https://www.flaticon.com/svg/static/icons/svg/197/197386.svg" alt=""></a>
+                    <a class="btn-config" title="Idioma"><img src="https://www.flaticon.com/svg/static/icons/svg/197/197386.svg" alt=""></a>
+
+                    <a class="btn-config" data-toggle="modal" data-target="#config"><i class="mdi mdi-cog-outline" title="Configurações"></i></a>
+
                 </div>
 
             </div>
@@ -94,6 +97,27 @@
         </div>
     </nav>
     <!------ Navbar ------>
+
+    <!-- Modal -->
+    <div class="modal fade" id="config" tabindex="-1" aria-labelledby="configLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="configLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <main>
         <!------ Header ------>
@@ -155,11 +179,37 @@
         const $html = document.querySelector('html')
         const $btnDarkMode = document.querySelector('#btn-dark-mode')
 
-        function darkMode() {
-            $html.classList.toggle('dark-mode')
-            $btnDarkMode.classList.toggle( 'mdi-lightbulb-on-outline')
-            $btnDarkMode.classList.add('mdi-lightbulb-off-outline')
+        function darkMode(initializing) {
+
+            if (initializing) {
+
+                $html.classList.toggle('dark-mode')
+
+                $btnDarkMode.classList.toggle( 'mdi-lightbulb-on-outline')
+                $btnDarkMode.classList.add('mdi-lightbulb-off-outline')
+
+            } else {
+                
+                $html.classList.toggle('dark-mode')
+
+                $btnDarkMode.classList.toggle( 'mdi-lightbulb-on-outline')
+                $btnDarkMode.classList.add('mdi-lightbulb-off-outline')
+
+                if ($html.classList.contains('dark-mode')){
+                    localStorage['dark-mode'] = 'on'
+                } else {
+                    localStorage['dark-mode'] = 'off'
+                }
+            }
         }
+
+        function checkDarkMode() {
+            if (localStorage['dark-mode'] == 'on') {
+                darkMode(true)                
+            }   
+        }
+
+        checkDarkMode()
     </script>
 
   </body>
