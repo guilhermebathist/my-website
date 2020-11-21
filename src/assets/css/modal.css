@@ -1,0 +1,64 @@
+.modal {
+    background-color: #71717152;
+}
+.modal-content {
+    border: 0;
+    border-radius: 25px;
+    background-color: var(--white);
+    color: var(--text);
+}
+.close {
+    color: #E74C3C;
+    text-shadow: none;
+    opacity: 1;
+    cursor: url("../cursors/Hand.cur"), pointer !important;
+    transition: .2s;
+}
+.close:hover{
+    color: #e74d3cd0;
+}
+.close i {
+    cursor: url("../cursors/Hand.cur"), pointer !important;
+}
+
+#languageModal .btn-config {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+}
+#languageModal .btn-config:hover,
+#languageModal .btn-config:focus {
+    transition: .5s;
+    transform: rotate(-360deg);
+    background-color: #e74d3c30;
+}
+#languageModal .btn-config:active {
+    transition: .2s;
+    transform: scale(.8);
+    background-color: #e74d3cbf;
+}
+#languageModal .btn-config img{
+    width: 75%;
+    margin-bottom: 3%;
+}
+#languageModal em{
+    font-size: 11px;
+}
+#languageModal em i{
+    font-size: 15px;
+}
+
+@media (max-width: 920px) {
+    #languageModal .btn-config img {
+        margin-bottom: 7%;
+    }
+    #languageModal .btn-config:hover,
+    #languageModal .btn-config:focus {
+        background-color: #e74d3cbf;
+    }
+    #languageModal .btn-config:active {
+        transition: .2s;
+        transform: rotate(-360deg);
+        background-color: #e74d3cbf;
+    }
+}
