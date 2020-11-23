@@ -26,14 +26,20 @@ nav .logo-container {
     display: flex;
     align-items: center;
 }
+nav .logo-container a {
+    text-decoration: none;
+    cursor: url("../cursors/Hand.cur"), pointer !important;
+}
 nav .logo-container h2 {
     line-height: 4.5rem;
     font-size: 40px;
     color: var(--text);
     margin: 0;
+    cursor: url("../cursors/Hand.cur"), pointer !important;
 }
 nav .logo-container h2 span {
     color: #E74C3C;
+    cursor: url("../cursors/Hand.cur"), pointer !important;
 }
 nav .nav-btn {
     flex: 3;
@@ -63,6 +69,7 @@ nav .nav-config {
 }
 .btn-config:hover {
     background-color: var(--nav-config2);
+    color: var(--config-text2);
 }
 .btn-config:active {
     color: var(--config-text2);
@@ -98,9 +105,11 @@ nav .nav-link > a {
     align-items: center;
     justify-content: space-between;
     transition: .2s;
+    text-decoration:line-through;
+    cursor: url("../cursors/NO.cur"), pointer !important;
 }
 nav .nav-link > a:hover {
-    text-decoration: none;
+    text-decoration:line-through;
     color: #E74C3C;
 }
 nav .nav-link > a:active {
@@ -132,7 +141,8 @@ nav .dropdown ul {
 nav .dropdown-link > a {
     display: flex;
     padding: .7rem 1rem;
-    text-decoration: none;
+    text-decoration:line-through;
+    cursor: url("../cursors/NO.cur"), pointer !important;
     color: var(--text);
     font-size: 1rem;
     font-weight: 600;
@@ -141,7 +151,7 @@ nav .dropdown-link > a {
     justify-content: space-between;
 }
 nav .dropdown-link > a:hover {
-    text-decoration: none;
+    text-decoration:line-through;
     color: #E74C3C;
     transform: translateX(10px);
 }
@@ -342,7 +352,7 @@ nav .dropdown.second .arrow {
         transition: .5s;
     }
     nav .nav-config {
-        flex: initial;
+        flex: 2;
         width: 100%;
         padding: 1.5rem 1.9rem;
         justify-content: flex-end;

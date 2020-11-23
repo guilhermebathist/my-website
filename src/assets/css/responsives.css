@@ -9,7 +9,14 @@
 
 /*------------- (Max-Width 991) -------------*/
 @media only screen and (max-width: 991px) {
-
+	.home {
+		background-image: url('../img/bg/bg-head0.png');
+		background-position: right;
+		background-size: cover;
+	}
+	.home .bg-animation {
+		display: none;
+	}
 }
 
 /*------------- (Max-Width 991) -------------*/
@@ -63,7 +70,7 @@
 @media only screen and (max-width: 441px) {
 	/*------ Header ------*/
 	header h1 {
-		padding-top: 80%;
+		padding-top: 50%;
 	}
 	/*------ Header ------*/
 }
