@@ -42,8 +42,11 @@
 
 
 	/*------ Portfolio ------*/
-	.development img {
-		width: 10%;
+	.portfolio .badge {
+		top: 71%;
+	}
+	.card:hover > .badge {
+		top: 67%;
 	}
 	/*------ Portfolio ------*/
 

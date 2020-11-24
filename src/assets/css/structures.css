@@ -16,9 +16,7 @@
 	--nav-config1: #eaeaea;
 	--nav-config2: #ccc;
 	--config-text1: #212529;
-	--config-text2: #fff;
-
-	
+	--config-text2: #fff;	
 
 	--dark-nav-config1: #f5f5f524;
 	--dark-nav-config2: #f5f5f55e;
@@ -29,6 +27,8 @@
 
 	--arrow1: #f0f0f0;
 	--arrow2: #e8e8e8;
+	
+	--card-shadow: #cccccc90;
 }
 .dark-mode:root {
 	--text: #fdfdfd;
@@ -46,6 +46,8 @@
 
 	--arrow1: #2e2e2e;
 	--arrow2: #434343;
+
+	--card-shadow: transparent;
 }
 * {
 	padding: 0;
@@ -73,6 +75,15 @@ a {
     cursor: url("../cursors/Hand.cur"), pointer;
 }
 /* ---------------- Body ---------------- */
+
+/* ---------------- Badges ---------------- */
+.badge-success {
+	background-color: #4cd964;
+}
+.badge-info {
+	background-color: #2196f3;
+}
+/* ---------------- Badges ---------------- */
 
 
 /* --------------- Background --------------- */
@@ -105,3 +116,41 @@ a {
 	font-size: 18px;
 }
 /* --------------- Header --------------- */
+
+/* --------------- Portfolio --------------- */
+.portfolio {
+	position: relative;
+	padding: 5% 0;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+}
+.portfolio h2 {
+	font-size: 35px;
+}
+.portfolio h2 span{
+	color: #E74C3C;
+	font-size: 45px;
+}
+.portfolio .card {
+	margin-bottom: 10%;
+}
+.portfolio span {
+	font-size: 20px;
+}
+.portfolio .badge {
+	position: absolute;
+	top: 69%;
+	right: 7%;
+	padding: 4px;
+	border-radius: 50%;
+	transition: .3s;
+	cursor: url("../cursors/Help.cur"), pointer;
+}
+.portfolio .badge i{
+	cursor: url("../cursors/Help.cur"), pointer;
+}
+.card:hover > .badge {
+	top: 65%;
+}
+/* --------------- Portfolio --------------- */

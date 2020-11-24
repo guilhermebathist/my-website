@@ -1,0 +1,21 @@
+.btn {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+.btn:hover {
+    transform: translateY(-10px);
+}
+.btn:active {
+    transform: scale(.9);
+}
+.btn-danger {
+    background-color: #e74c3cdb;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #e74c3c;
+    box-shadow: none;
+}

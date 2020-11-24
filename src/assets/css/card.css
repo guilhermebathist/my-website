@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    color: var(--text);
+    transition: .3s;
+}
+.card:hover,
+.card:focus {
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: 0 0 30px -5px var(--card-shadow);
+    transform: translateY(-15px);
+}
+.card-body {
+    padding: 0;
+}
+.card-img {
+    width: 100% !important;
+    border-radius: 15px;
+    margin-bottom: 3%;
+}
+.card-title {
+    margin: 0;
+}
+.card-sub {
+    font-size: 10px;
+}
+.card-text {
+    margin-top: 3%;
+    font-size: 14px;
+}
