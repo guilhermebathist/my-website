@@ -48,6 +48,7 @@ function translation() {
     $descHabiens.innerHTML = "Responsive design for Website, Backoffice and Android and IOS Application.";
     $descCdv.innerHTML = "Responsive system for Web, Brand Visual Identity and Social Media.";
     $descNeo.innerHTML = "Personal Landing Page project for Design and Marketing Agencies.";
+    $descTac.innerHTML = "Layout for Landing Page, Backoffice and App, and Social Media.";
     $descBlb.innerHTML = "Responsive Ecommerce for Web and Brand Visual Identity.";
     
     for (const key of $btnPortfolio) {

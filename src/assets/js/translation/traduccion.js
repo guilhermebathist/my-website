@@ -33,6 +33,7 @@ const $pp = document.querySelector('#pp')
 const $descHabiens = document.querySelector('#descHabiens')
 const $descCdv = document.querySelector('#descCdv')
 const $descNeo = document.querySelector('#descNeo')
+const $descTac = document.querySelector('#descTac')
 const $descBlb = document.querySelector('#descBlb')
 
 const $btnPortfolio = document.querySelectorAll('#btnPortfolio')
@@ -85,6 +86,7 @@ function traduccion() {
     $descHabiens.innerHTML = "Design responsive para sitio web, backoffice y aplicación Android e IOS.";
     $descCdv.innerHTML = "Sistema Responsive para Web, Identidad Visual de Marca y Social Media.";
     $descNeo.innerHTML = "Proyecto personal de Landing Page para agencias de design y marketing.";
+    $descTac.innerHTML = "Layout para Landing Page, Backoffice y Aplicación, y Redes Sociales.";
     $descBlb.innerHTML = "Ecommerce responsive para identidad visual web y de marca.";
 
     for (const key of $btnPortfolio) {
