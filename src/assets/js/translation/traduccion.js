@@ -22,6 +22,7 @@ const $infoTranslation = document.querySelector('#infoTranslation')
 //Header
 const $headerTitle = document.querySelector('#headerTitle')
 const $headerDesc = document.querySelector('#headerDesc')
+const $btnHeader = document.querySelector('#btnHeader')
 
 //Portfolio
 const $portfolioTitle = document.querySelector('#portfolioTitle')
@@ -75,6 +76,7 @@ function traduccion() {
     //----------- Header -----------
     $headerTitle.innerHTML = "Soy Guilherme Bathist.";
     $headerDesc.innerHTML = "Mi Website aún está en desarrollo, ¡pero puedes ver algunos de mis trabajos!";
+    $btnHeader.innerHTML = "Ver más";
     
     //----------- Portfolio -----------
     $portfolioTitle.innerHTML = `Portafolio<span>.</span>`;

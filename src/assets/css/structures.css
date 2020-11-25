@@ -109,7 +109,7 @@ a {
 	height: 100vh;
 }
 .home h1 {
-	padding-top: 20%;
+	padding-top: 10%;
 	font-size: 45px;
 }
 .home p {
@@ -123,7 +123,7 @@ a {
 	padding: 5% 0;
 	margin: 0;
 	width: 100%;
-	height: 100vh;
+	height: auto;
 }
 .portfolio h2 {
 	font-size: 35px;
@@ -154,3 +154,43 @@ a {
 	top: 65%;
 }
 /* --------------- Portfolio --------------- */
+
+/* --------------- Footer --------------- */
+footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 5% 0 2% 0;
+	margin: 0;
+}
+.logo-footer h2{
+    line-height: 4.5rem;
+    font-size: 40px;
+    color: var(--text);
+	margin: 0;
+	text-decoration: none !important;
+    cursor: url("../cursors/Hand.cur"), pointer !important;
+}
+.logo-footer span {
+    color: #E74C3C;
+    cursor: url("../cursors/Hand.cur"), pointer !important;
+}
+footer a{
+	text-decoration: none !important;
+}
+footer small {
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+footer .social-links {
+	font-size: 30px;
+	color: var(--text);
+	margin: 0 3%;
+}
+footer .social-links:hover {
+	color: #E74C3C;
+}
+footer .social-links i {
+    cursor: url("../cursors/Hand.cur"), pointer !important;
+}
+/* --------------- Footer --------------- */

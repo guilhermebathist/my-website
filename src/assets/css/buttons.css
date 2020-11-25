@@ -12,10 +12,10 @@
     transform: scale(.9);
 }
 .btn-danger {
-    background-color: #e74c3cdb;
+    background-color: #e74c3c;
 }
 .btn-danger:hover,
 .btn-danger:focus {
-    background-color: #e74c3c;
+    background-color: #be4133;
     box-shadow: none;
 }
