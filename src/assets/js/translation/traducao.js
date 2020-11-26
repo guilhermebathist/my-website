@@ -35,7 +35,7 @@ function traducao() {
     $infoTranslation.innerHTML = "A tradução para o idioma selecionado pode haver alguns erros. Eu já estou trabalhando nisso."
 
     //----------- Header -----------
-    $headerTitle.innerHTML = "Eu sou Guilherme Bathist.";
+    $headerTitle.innerHTML = `Eu sou Guilherme Bathist<span>.</span>`;
     $headerDesc.innerHTML = "Meu Website ainda está em desenvolvimento, mas você já pode conferir um pouco do meu trabalho!";
     $btnHeader.innerHTML = "Conheça";
 

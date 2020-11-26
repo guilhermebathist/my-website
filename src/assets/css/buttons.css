@@ -3,13 +3,13 @@
     padding: 10px 25px;
     border-radius: 25px;
     letter-spacing: 2px;
-    transition: .3s;
+    transition: .3s !important;
 }
 .btn:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 .btn:active {
-    transform: scale(.9);
+    transform: scale(.9) !important;
 }
 .btn-danger {
     background-color: #e74c3c;
@@ -18,4 +18,18 @@
 .btn-danger:focus {
     background-color: #be4133;
     box-shadow: none;
+}
+
+
+.btn-danger-pulse {
+    -webkit-animation: danger-pulse 1.5s infinite;
+}
+  
+@keyframes danger-pulse {
+    0% {
+        box-shadow: 0 0 0 0 #e74c3cbf;
+    }
+    100% {
+        box-shadow: 0 0 0 20px #e74c3c00;
+    }
 }

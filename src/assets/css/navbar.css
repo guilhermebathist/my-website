@@ -8,18 +8,27 @@ a {
 nav {
     position: sticky;
     top: 0;
-    background-color: var(--white);
+    background-color: transparent;
     width: 100%;
     z-index: 1000;
     height: 4.5rem;
+	transition: .3s;
+}
+.sticky {
+    background-color: var(--white);
     box-shadow: 0 10px 20px -5px var(--nav-shadow);
-	transition: 1s;
 }
 nav .container {
     max-width: 65rem;
-    padding: 0 2rem;
+    padding: 2rem 5rem;
     display: flex;
     position: relative;
+	transition: .3s;
+}
+
+.sticky .container{
+	transition: .5s;
+    padding: 0 2rem;
 }
 nav .logo-container {
     flex: 1;
@@ -47,6 +56,8 @@ nav .nav-btn {
 }
 nav .nav-links {
     flex: 2;
+    margin-right: 55px;
+    transition: .3s;
 }
 nav .nav-config {
     flex: 1;
@@ -210,7 +221,7 @@ nav .dropdown.second .arrow {
     background-color: var(--text);
     position: relative;
     z-index: 1002;
-    transition: .5s;
+    transition: .1s;
 }
 .hamburger-menu div:before,
 .hamburger-menu div:after {
@@ -269,6 +280,22 @@ nav .dropdown.second .arrow {
     #check {
         display: block;
     }
+    nav {
+        height: 6.5rem !important;
+    }
+    .sticky {
+        height: 4.5rem !important;
+    }
+    nav .nav-btn {
+        top: 6.5rem !important;
+    }
+    .sticky .nav-btn {
+        top: 4.5rem !important;
+    }
+
+    nav .container {
+        padding: 1rem 2.5rem;
+    }
     nav .nav-btn {
         position: fixed;
         height: calc(100vh - 4.5rem);
@@ -288,11 +315,12 @@ nav .dropdown.second .arrow {
         transform: translateX(0);
     }
     #check:checked ~ .nav-btn .nav-link {
-        animation: animation .5s ease forwards var(--i);
+        animation: animation .5s ease forwards var(--i) !important;
     }
     nav .nav-links {
         flex: initial;
         width: 100%;
+        margin: 0;
     }
     nav .nav-links > ul {
         flex-direction: column;

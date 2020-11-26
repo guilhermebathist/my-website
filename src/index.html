@@ -35,7 +35,7 @@
             <input type="checkbox" id="check">
 
             <div class="logo-container">
-                <a href="index.html">
+                <a href="index.html" data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
                     <h2 title="Logo de Guilherme Bathist">GB<span>.</span></h2>
                 </a>
             </div>
@@ -44,7 +44,8 @@
 
                 <div class="nav-links">
                     <ul>
-                        <li class="nav-link" style="--i:.4s">
+                        <li class="nav-link" style="--i:.4s" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-once="true">
                             <a href="#" title="Sobre" id="navAbout">Sobre <i class="mdi mdi-chevron-down"></i></a>
                             <div class="dropdown">
                                 <ul>
@@ -76,14 +77,17 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-link" style="--i:.5s">
+                        <li class="nav-link" style="--i:.5s" data-aos="fade-down" data-aos-delay="300"
+                            data-aos-once="true">
                             <a href="#" title="Experiência" id="navExperience">Experiência</a>
                         </li>
-                        <li class="nav-link" style="--i:.6s">
+                        <li class="nav-link" style="--i:.6s" data-aos="fade-down" data-aos-delay="400"
+                            data-aos-once="true">
                             <a href="#portfolio" class="scroll" title="Portfólio" id="navPortfolio"
                                 style="text-decoration:none!important;cursor: url('assets/cursors/Hand.cur'), pointer !important;">Portfólio</a>
                         </li>
-                        <li class="nav-link" style="--i:.7s">
+                        <li class="nav-link" style="--i:.7s" data-aos="fade-down" data-aos-delay="500"
+                            data-aos-once="true">
                             <a href="#" title="Contato" id="navContact">Contato</a>
                         </li>
                     </ul>
@@ -91,18 +95,19 @@
 
                 <div class="nav-config text-center">
 
-                    <a class="btn-config" onclick="darkMode(false)" title="Modo Escuro" id="btnDark"><i
+                    <a class="btn-config" onclick="darkMode(false)" title="Modo Escuro" id="btnDark"
+                        data-aos="fade-down" data-aos-delay="100" data-aos-once="true"><i
                             class="mdi mdi-lightbulb-on-outline" id="btn-dark-mode"></i></a>
 
                     <a class="btn-config" title="Idioma" data-toggle="modal" data-target="#languageModal"
-                        id="btnLanguage"><img src="https://www.flaticon.com/svg/static/icons/svg/197/197386.svg" alt=""
-                            id="flagIdioma"></a>
+                        id="btnLanguage" data-aos="fade-down" data-aos-delay="200" data-aos-once="true"><img
+                            src="https://www.flaticon.com/svg/static/icons/svg/197/197386.svg" id="flagIdioma"></a>
 
                 </div>
 
             </div>
 
-            <div class="hamburger-menu-container">
+            <div class="hamburger-menu-container" data-aos="fade-left" data-aos-delay="100" data-aos-once="true">
                 <div class="hamburger-menu">
                     <div></div>
                 </div>
@@ -182,14 +187,22 @@
                 <div class="row align-items-center">
 
                     <div class="col-md-12 col-12 text-center">
-                        <h1 id="headerTitle">Eu sou Guilherme Bathist.</h1>
-                        <p>UI/UX, Web, Mobile Designer!</p>
-                        <i class="mdi mdi-information"></i>
-                        <em id="headerDesc">Meu Website ainda está em desenvolvimento, mas você já pode conferir um pouco do meu trabalho!</em>                        
+                        <h1 id="headerTitle" data-aos="fade-up" data-aos-delay="100">Eu sou Guilherme
+                            Bathist<span>.</span></h1>
+
+                        <p data-aos="fade-up" data-aos-delay="200">UI/UX, Web, Mobile Designer!</p>
+
+                        <div data-aos="flip-down" data-aos-delay="500">
+                            <i class="mdi mdi-information"></i>
+
+                            <em id="headerDesc">Meu Website ainda está em desenvolvimento, mas você já pode conferir um  pouco do meu trabalho!</em>
+                        </div>
+
                     </div>
 
                     <div class="col-12 text-center mt-5">
-                        <a href="#portfolio" class="btn btn-danger scroll" id="btnHeader">Conheça</a>
+                        <a href="#portfolio" class="btn btn-danger btn-danger-pulse scroll" id="btnHeader" data-aos="fade-down"
+                            data-aos-delay="300">Conheça</a>
                     </div>
 
                     <div class="bg-animation">
@@ -213,105 +226,125 @@
                 <div class="row align-items-start">
 
                     <div class="col-12 text-center mb-5">
-                        <h2 id="portfolioTitle">Portfólio<span>.</span></h2>
-                        <p id="portfolioDesc">Confira alguns dos meus trabalhos e projetos</p>
+                        <h2 id="portfolioTitle" data-aos="fade-up" data-aos-delay="100">Portfólio<span>.</span></h2>
+                        <p id="portfolioDesc" data-aos="fade-down" data-aos-delay="100">Confira alguns dos meus trabalhos e projetos</p>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 col-12">
+                    <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="200">
+
                         <div class="card">
 
-                            <img src="https://scontent-gru1-1.xx.fbcdn.net/v/t1.0-9/122403777_172009344566962_4941700425102539869_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_eui2=AeGh7Dsdaqb2j19-XaQErCkWu8c8Oz0xi_m7xzw7PTGL-YRQw7Nco8-McD0H5wntHvwHqKgmuLY6-Qzpe27ULMLM&_nc_ohc=gTRzR6HcmwsAX_mD5Xh&_nc_oc=AQkalhKZggEFTfk22Kb7su18mxkwR2hGzTLceMhmvpN1cGGjdCbLp1Y_8LDJcrI_tm0&_nc_ht=scontent-gru1-1.xx&oh=39713d4f7c2ef4e76e2ce8f425ea946e&oe=5FE1E6F8" class="card-img" alt="Habiens">
+                            <img src="https://scontent-gru1-1.xx.fbcdn.net/v/t1.0-9/122403777_172009344566962_4941700425102539869_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_eui2=AeGh7Dsdaqb2j19-XaQErCkWu8c8Oz0xi_m7xzw7PTGL-YRQw7Nco8-McD0H5wntHvwHqKgmuLY6-Qzpe27ULMLM&_nc_ohc=gTRzR6HcmwsAX_mD5Xh&_nc_oc=AQkalhKZggEFTfk22Kb7su18mxkwR2hGzTLceMhmvpN1cGGjdCbLp1Y_8LDJcrI_tm0&_nc_ht=scontent-gru1-1.xx&oh=39713d4f7c2ef4e76e2ce8f425ea946e&oe=5FE1E6F8"
+                                class="card-img" alt="Habiens">
 
-                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i class="mdi mdi-currency-usd"></i></span>
+                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i
+                                    class="mdi mdi-currency-usd"></i></span>
 
                             <div class="card-body">
                                 <h5 class="card-title">Habiens</h5>
-                                
+
                                 <em class="card-sub">UI/UX Design</em>
 
-                                <p class="card-text" id="descHabiens">Projeto responsivo para Site, Backoffice e Aplicativo Android e IOS.</p>
+                                <p class="card-text" id="descHabiens">Projeto responsivo para Site, Backoffice e
+                                    Aplicativo Android e IOS.</p>
 
-                                <a href="http://habiens.com.br/index.html" target="_aboutblank" class="btn btn-danger" id="btnPortfolio">Visualizar</a>
+                                <a href="http://habiens.com.br/index.html" target="_aboutblank" class="btn btn-danger"
+                                    id="btnPortfolio">Visualizar</a>
 
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-12">
+
+                    <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
 
-                            <img src="assets/img/portfolio/clube-de-vagas/cover-clube-de-vagas.jpg" class="card-img" alt="Clibe de Vagas Website">
+                            <img src="assets/img/portfolio/clube-de-vagas/cover-clube-de-vagas.jpg" class="card-img"
+                                alt="Clibe de Vagas Website">
 
-                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i class="mdi mdi-currency-usd"></i></span>
+                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i
+                                    class="mdi mdi-currency-usd"></i></span>
 
                             <div class="card-body">
                                 <h5 class="card-title">Clube de Vagas</h5>
-                                
+
                                 <em class="card-sub">UI/UX Design, Branding, Social Media</em>
 
-                                <p class="card-text" id="descCdv">Sistema responsivo para Web, Identidade Visual da Marca e Social Media.</p>
+                                <p class="card-text" id="descCdv">Sistema responsivo para Web, Identidade Visual da
+                                    Marca e Social Media.</p>
 
-                                <a href="https://clubedevagas.com.br/" target="_aboutblank" class="btn btn-danger" id="btnPortfolio">Visualizar</a>
+                                <a href="https://clubedevagas.com.br/" target="_aboutblank" class="btn btn-danger"
+                                    id="btnPortfolio">Visualizar</a>
 
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-12">
+
+                    <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="400">
                         <div class="card">
 
                             <img src="assets/img/portfolio/neo/cover-neo.jpg" class="card-img" alt="Néo. Website">
 
-                            <span class="badge badge-info" id="pp" title="Projeto Pessoal"><i class="mdi mdi-star-outline"></i></span>
+                            <span class="badge badge-info" id="pp" title="Projeto Pessoal"><i
+                                    class="mdi mdi-star-outline"></i></span>
 
                             <div class="card-body">
                                 <h5 class="card-title">Néo.</h5>
-                                
+
                                 <em class="card-sub">UI Design, Branding</em>
 
-                                <p class="card-text" id="descNeo">Projeto pessoal de Landing Page para Agências de Design e Marketing.</p>
+                                <p class="card-text" id="descNeo">Projeto pessoal de Landing Page para Agências de
+                                    Design e Marketing.</p>
 
-                                <a href="https://guilhermebathist.com.br/templates/neo/" target="_aboutblank" class="btn btn-danger" id="btnPortfolio">Visualizar</a>
+                                <a href="https://guilhermebathist.com.br/templates/neo/" target="_aboutblank"
+                                    class="btn btn-danger" id="btnPortfolio">Visualizar</a>
 
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-12">
+
+                    <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="500">
                         <div class="card">
 
-                            <img src="assets/img/portfolio/tac-frete/cover-tac-frete.jpg" class="card-img" alt="TAC Frete Landing Page">
+                            <img src="assets/img/portfolio/tac-frete/cover-tac-frete.jpg" class="card-img"
+                                alt="TAC Frete Landing Page">
 
-                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i class="mdi mdi-currency-usd"></i></span>
+                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i
+                                    class="mdi mdi-currency-usd"></i></span>
 
                             <div class="card-body">
                                 <h5 class="card-title">TAC Frete</h5>
-                                
+
                                 <em class="card-sub">UI/UX Design, Social Media</em>
 
-                                <p class="card-text" id="descTac">Layout para Landing Page, Backoffice e Aplicativo, e Social Midia.</p>
+                                <p class="card-text" id="descTac">Layout para Landing Page, Backoffice e Aplicativo, e
+                                    Social Midia.</p>
 
-                                <a href="http://tacfrete.com.br/" target="_aboutblank" class="btn btn-danger" id="btnPortfolio">Visualizar</a>
+                                <a href="http://tacfrete.com.br/" target="_aboutblank" class="btn btn-danger"
+                                    id="btnPortfolio">Visualizar</a>
 
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-4 col-sm-6 col-12">
+
+                    <div class="col-md-4 col-sm-6 col-12" data-aos="fade-up" data-aos-delay="600">
                         <div class="card">
 
-                            <img src="assets/img/portfolio/blb/cover-blb.jpg" class="card-img" alt="BLB Consultoria Landing Page">
+                            <img src="assets/img/portfolio/blb/cover-blb.jpg" class="card-img"
+                                alt="BLB Consultoria Landing Page">
 
-                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i class="mdi mdi-currency-usd"></i></span>
+                            <span class="badge badge-success" id="pc" title="Projeto Comercial"><i
+                                    class="mdi mdi-currency-usd"></i></span>
 
                             <div class="card-body">
                                 <h5 class="card-title">BLB Consultoria</h5>
-                                
+
                                 <em class="card-sub">UI/UX Design, Branding</em>
 
-                                <p class="card-text" id="descBlb">Ecommerce responsivo para Web e Identidade Visual da Marca.</p>
+                                <p class="card-text" id="descBlb">Ecommerce responsivo para Web e Identidade Visual da
+                                    Marca.</p>
 
-                                <a href="http://blbconsultoria.com.br/" target="_aboutblank" class="btn btn-danger" id="btnPortfolio">Visualizar</a>
+                                <a href="http://blbconsultoria.com.br/" target="_aboutblank" class="btn btn-danger"
+                                    id="btnPortfolio">Visualizar</a>
 
                             </div>
                         </div>
@@ -323,14 +356,14 @@
         <!------ Portfolio ------>
 
     </main>
-    
-    
+
+
     <!------ Footer ------>
     <footer>
         <div class="container">
             <div class="row">
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="100">
                     <a href="index.html" class="logo-footer">
                         <h2 title="Logo de Guilherme Bathist">GB<span>.</span></h2>
                     </a>
@@ -338,21 +371,27 @@
 
                 <div class="col-12 text-center">
 
-                    <a href="https://www.instagram.com/guilhermebathist/" target="_aboutblank" class="social-links">
-                        <i class="mdi mdi-instagram"></i>
-                    </a>
-                    
-                    <a href="https://www.linkedin.com/in/guilherme13/" target="_aboutblank" class="social-links">
-                        <i class="mdi mdi-linkedin"></i>
-                    </a>
-                    
-                    <a href="https://github.com/guilhermebathist" target="_aboutblank" class="social-links">
-                        <i class="mdi mdi-github"></i>
-                    </a>
+                    <div class="social-div" data-aos="fade-up" data-aos-delay="200">
+                        <a href="https://www.instagram.com/guilhermebathist/" target="_aboutblank" class="social-links">
+                            <i class="mdi mdi-instagram"></i>
+                        </a>
+                    </div>
+
+                    <div class="social-div" data-aos="fade-up" data-aos-delay="300">
+                        <a href="https://www.linkedin.com/in/guilherme13/" target="_aboutblank" class="social-links">
+                            <i class="mdi mdi-linkedin"></i>
+                        </a>
+                    </div>
+
+                    <div class="social-div" data-aos="fade-up" data-aos-delay="400">
+                        <a href="https://github.com/guilhermebathist" target="_aboutblank" class="social-links">
+                            <i class="mdi mdi-github"></i>
+                        </a>
+                    </div>
 
                 </div>
 
-                <div class="col-12 text-center mt-3">
+                <div class="col-12 text-center mt-md-3 mt-4" data-aos="fade-down" data-aos-delay="100">
                     <small>Guilherme Bathist © 2020</small>
                 </div>
 
@@ -378,9 +417,8 @@
 
 
     <!----------------------- JQuery, Bootstrap ---------------------->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
@@ -388,7 +426,6 @@
 
 
     <!--------------------------- Translation --------------------------->
-
     <script src="assets/js/translation/traduccion.js"></script>
     <script src="assets/js/translation/translation.js"></script>
     <script src="assets/js/translation/traducao.js"></script>
@@ -431,13 +468,31 @@
     <script src="assets/js/animations/dark-mode.js"></script>
     <!--------------------------- Animations --------------------------->
     <script src="assets/js/animations/bg-animation.js"></script>
-    <!-- Scroll Animation -->
+    <script src="assets/js/animations/sticky-menu.js"></script>
+    <!--------------------------- Scroll Animation --------------------------->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-            offset: 200,
+            offset: 50,
             delay: 0,
             once: false
+        });
+    </script>
+    <script type="text/javascript">
+        var scrollLink = $('.scroll');
+
+
+        scrollLink.click(function (e) {
+            e.preventDefault();
+            $('body,html').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 500);
+        });
+
+        // Active link switching
+        $(window).scroll(function () {
+            var scrollbarLocation = $(this).scrollTop();
+
         });
     </script>
 

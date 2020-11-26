@@ -11,11 +11,20 @@
 @media only screen and (max-width: 991px) {
 	.home {
 		background-image: url('../img/bg/bg-head0.png');
-		background-position: right;
 		background-size: cover;
+		-webkit-animation: linear 60s infinite alternate ani-bg ;
 	}
 	.home .bg-animation {
 		display: none;
+	}
+	  
+	@keyframes ani-bg {
+		0% {
+			background-position: left;
+		}
+		100% {
+			background-position: right;
+		}
 	}
 }
 
@@ -23,11 +32,6 @@
 
 /*------------- (Max-Width 767) -------------*/
 @media only screen and (max-width: 767px) {
-	/*------ Header ------*/
-	header h1 {
-		padding-top: 50%;
-	}
-	/*------ Header ------*/
 }
 
 /*------------- (Max-Width 767) -------------*/
@@ -50,6 +54,14 @@
 	}
 	/*------ Portfolio ------*/
 
+	/*------ Footer ------*/
+	footer {
+		padding-bottom: 10%;
+	}
+	footer .social-div {
+		margin: 0 7%;
+	}
+	/*------ Footer ------*/
 }
 
 /*------------- (Max-Width 575) -------------*/
@@ -58,10 +70,13 @@
 /*------------- (Max-Width 525) -------------*/
 @media only screen and (max-width: 525px) {
 	/*------ Header ------*/
-	header h1 {
+	.home {
+		padding: 30% 0;
+	}
+	.home h1 {
 		font-size: 30px;
 	}
-	header p {
+	.home p {
 		font-size: 15px;
 	}
 	/*------ Header ------*/
@@ -71,25 +86,12 @@
 
 /*------------- (Max-Width 441) -------------*/
 @media only screen and (max-width: 441px) {
-	/*------ Header ------*/
-	header h1 {
-		padding-top: 50%;
-	}
-	/*------ Header ------*/
 }
 
 /*------------- (Max-Width 441) -------------*/
 
 /*------------- (Max-Width 375) -------------*/
 @media only screen and (max-width: 375px) {
-	/*------ Header ------*/
-	header h1 {
-		font-size: 25px;
-	}
-	header p {
-		font-size: 12px;
-	}
-	/*------ Header ------*/
 }
 
 /*------------- (Max-Width 375) -------------*/
