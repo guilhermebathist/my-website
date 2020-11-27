@@ -71,13 +71,17 @@
 @media only screen and (max-width: 525px) {
 	/*------ Header ------*/
 	.home {
+		height: 90vh;
 		padding: 30% 0;
 	}
 	.home h1 {
 		font-size: 30px;
 	}
 	.home p {
-		font-size: 15px;
+		font-size: 20px;
+	}
+	.home em {
+		font-size: 14px;
 	}
 	/*------ Header ------*/
 }
