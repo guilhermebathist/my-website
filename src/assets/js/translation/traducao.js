@@ -44,7 +44,7 @@ function traducao() {
     $portfolioDesc.innerHTML = "Confira alguns dos meus trabalhos e projetos";
 
     $pc.title = "Projeto Comercial";
-    $pp.title = "Proeto Pessoal";
+    $pp.title = "Projeto Pessoal";
 
     $descHabiens.innerHTML = "Projeto responsivo para Site, Backoffice e Aplicativo Android e IOS.";
     $descCdv.innerHTML = "Sistema responsivo para Web, Identidade Visual da Marca e Social Media.";
